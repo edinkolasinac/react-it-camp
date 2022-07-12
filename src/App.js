@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import logo from './logo.svg';
 import './App.css';
 import Counter from './components/Counter/indexx';
@@ -24,3 +25,5 @@ function App() {
 }
 
 export default App;
+=======
+>>>>>>> a906b5b0562e09deb515df72798fd35cfae45884
