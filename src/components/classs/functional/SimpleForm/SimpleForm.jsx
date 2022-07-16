@@ -49,7 +49,7 @@ const SimpleForm = (props) => {
         onChange={handleChange}
         id="agree"
       />
-      <input type="submit" />
+      <input type="submit" />'sumbit'
     </form>
   );
 };
