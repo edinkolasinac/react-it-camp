@@ -1,14 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import SimpleForm from "./components/classs/functional/SimpleForm/SimpleForm";
 
-import SimpleForm from "./components/functional/SimpleForm";
 
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-function onSubmit(params) { .value }
+function onSubmit(params) { }
 root.render(
     <React.StrictMode>
         <SimpleForm />
