@@ -1,9 +1,9 @@
 import { render, screen } from '@testing-library/react';
-import App from './App';
-import Counter from './components/Counter/indexx';
-<p>edooooo</p>
+import Badge1 from './functional/Badge1';
+
+
 test('renders learn react link', () => {
-  render(<App />);
+  render(<Badge1 />);
   const linkElement = screen.getByText(/learn react/i);
   expect(linkElement).toBeInTheDocument();
 });
