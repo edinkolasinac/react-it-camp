@@ -1,11 +1,10 @@
+import { render } from "@testing-library/react";
 import React, { useState } from "react";
 
 const SimpleForm = (props) => {
   const [inputs, setInputs] = useState({
-    name: "",
-    surname: "",
-    password: "",
-    agree: false,
+    ToDO: "",
+
   });
 
   const handleChange = (e) => {
@@ -19,16 +18,22 @@ const SimpleForm = (props) => {
       onSubmit={(e) => {
         e.preventDefault();
         console.log(inputs);
+
       }}
     >
-      <label htmlFor="">Name:</label>
+      <label htmlFor="">Todo:</label>
       <input
-        type="text"
+        type="todoW"
         value={inputs.name}
         onChange={handleChange}
         id="name"
+
+
       />
-      <label htmlFor="">Surname</label>
+
+
+
+      {/* <label htmlFor="">Surname</label>
       <input
         type="text"
         value={inputs.surname}
@@ -48,9 +53,11 @@ const SimpleForm = (props) => {
         checked={inputs.agree}
         onChange={handleChange}
         id="agree"
-      />
+      /> */}
       <input type="submit" />'sumbit'
     </form>
+
+
   );
 };
 export default SimpleForm;

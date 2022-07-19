@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import SimpleForm from "./components/classs/functional/SimpleForm/SimpleForm";
+import SearchMock from "./components/classs/functional/SearchMock";
+
 
 
 import "./index.css";
@@ -11,7 +12,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 function onSubmit(params) { }
 root.render(
     <React.StrictMode>
-        <SimpleForm />
+        < SearchMock />
     </React.StrictMode>
 );
 // If you want to start measuring performance in your app, pass a function
