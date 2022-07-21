@@ -31,7 +31,7 @@ const SearchList = (props) => {
         { title: "Game of thrones" },
         { title: "Lion king" },
         { title: "How to train your dragon" },
-        { title: "Kamiondzije" },
+        { title: "a" },
     ];
 
     const searchResult = list.filter((movie) => {
@@ -49,5 +49,12 @@ const SearchList = (props) => {
         </div>
     );
 };
+
+function wow(props) {
+    console.log((list2.length));
+
+
+};
+
 
 export default SearchMock;
