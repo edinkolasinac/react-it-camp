@@ -1,18 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-
-import MainButton from "./components/classs/functional/MainButton";
+import Tab from "./components/classs/functional/start";
+import Start from "./components/classs/functional/start";
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
     <React.StrictMode>
-        <MainButton text="Pritisni" color="white" radius="xs" size="xs" />
-        <MainButton text="Pritisni" color="dark" radius="sm" size="sm" />
-        <MainButton text="Pritisni" color="yellow" radius="md" size="md" />
-        <MainButton text="Pritisni" color="red" radius="lg" size="lg" />
-        <MainButton text="Pritisni" color="red" radius="xl" size="xl" />
+
+        <Tab />
     </React.StrictMode>
 );
 
