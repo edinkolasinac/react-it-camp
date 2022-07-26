@@ -1,0 +1,23 @@
+#text {
+    color: rgb(7, 62, 44);
+    margin-top: 200px;
+
+}
+
+#pic {
+    float: right;
+    margin-bottom: 200px;
+    height: 224px;
+    width: 380px;
+}
+
+#dugme1 {
+    background-color: aqua;
+    align-items: stretch;
+    align-content: space-between;
+
+}
+
+#dugme2 {
+    background-color: beige;
+}

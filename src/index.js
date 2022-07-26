@@ -1,15 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Tab from "./components/classs/functional/start";
-import Start from "./components/classs/functional/start";
+import Footer from "./components/classs/functional/Website/Footer";
+import Layout from "./components/classs/functional/Website/Layout";
 import reportWebVitals from "./reportWebVitals";
+import Nav from "./components/classs/functional/Website/Nav";
+import Website from "./components/classs/functional/Website";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
     <React.StrictMode>
-
-        <Tab />
+        <Website />
     </React.StrictMode>
 );
 
