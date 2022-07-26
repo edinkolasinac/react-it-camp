@@ -9,6 +9,7 @@ const Layout = (props) => {
             <Nav />
             <Footer />
         </div>
+        //ubacivanje komponenti u layout //
     );
 };
 export default Layout;
