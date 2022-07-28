@@ -1,16 +1,13 @@
-import React from "react";
+import React, { Fragment } from "react";
 import ReactDOM from "react-dom/client";
-import Footer from "./components/classs/functional/Website/Footer";
-import Layout from "./components/classs/functional/Website/Layout";
+import CountDown from "./components/classs/functional/CountDown";
 import reportWebVitals from "./reportWebVitals";
-import Nav from "./components/classs/functional/Website/Nav";
-import Website from "./components/classs/functional/Website";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
     <React.StrictMode>
-        <Website />
+        < CountDown />
     </React.StrictMode>
 );
 

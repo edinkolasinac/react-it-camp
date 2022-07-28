@@ -7,6 +7,7 @@ const Layout = (props) => {
             <Hero />
             {props.children}
             <Nav />
+            <Content />
             <Footer />
         </div>
         //ubacivanje komponenti u layout //
