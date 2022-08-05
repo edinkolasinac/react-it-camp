@@ -9,7 +9,7 @@ const RandomCat = () => {
 
     const fetchRandomCat = async () => {
         try {
-            const result = await catApi.get("/v1/images/search");
+            const result = await catApi.get("https://httpstatusdogs.com/");
             const data = result.data;
             setRandomCat(data[0]);
         } catch (error) {
