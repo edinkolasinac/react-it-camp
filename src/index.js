@@ -1,13 +1,14 @@
 import React, { Fragment } from "react";
 import ReactDOM from "react-dom/client";
-import Quote from "./components/classs/functional/Quote";
+import RandomCat from "./components/classs/functional/RandomCat/RadnomCat";
 import reportWebVitals from "./reportWebVitals";
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
     <React.StrictMode>
-        < Quote />
+        <RandomCat />
     </React.StrictMode>
 );
 
