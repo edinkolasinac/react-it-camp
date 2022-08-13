@@ -5,6 +5,7 @@ import Age from "./components/classs/functional/Brojac/test1";
 import Memorize from "./components/classs/functional/Memorize";
 import RandomCat from "./components/classs/functional/RandomCat/RadnomCat";
 import Ref from "./components/classs/functional/Ref";
+import App1 from "./components/classs/functional/SearchBar/App";
 import Apps from "./components/classs/functional/TemperatureControlApp/App";
 import reportWebVitals from "./reportWebVitals";
 
@@ -13,7 +14,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
     <React.StrictMode>
-        <Memorize />
+        <App1 />
     </React.StrictMode>
 );
 
