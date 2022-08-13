@@ -6,12 +6,17 @@ const Memorize = (props) => {
     return (
         <div>
             <p>{text}a</p>
+            <MyInput />
         </div>
     );
 };
 
 const MyInput = React.memo((props) => {
-    return <div></div>;
+    return <div>
+        <span >
+            <input>HEllo world</input>
+        </span>
+    </div>;
 });
 
 export default Memorize;
