@@ -6,7 +6,7 @@ const Apps = () => {
 
     const [temperatureValue, setTemperatureValue] = useState(10);
 
-    const [temperatureColor, setTemperatureColor] = useState('cold');
+    const [temperatureColor, setTemperatureColor] = useState('hot');
 
     const smanji = () => {
         const Novatemperature = temperatureValue - 1;
