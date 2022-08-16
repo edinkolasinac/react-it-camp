@@ -1,20 +1,21 @@
-import React, { useState } from "react";
+import React from "react";
+import { useState } from "react";
 
 
-function App1() {
-    const [nadji, setNadji] = useState("");
-    const arraay = [edo, edin, kolasinac];
 
 
-    return (
-        <div>
-            <input type='text' placeholder='nadji ' onChange={event => { setNadji(event.target, value) }} />
 
-        </div>
-    );
+function Search() {
+
+    return (<div>
+
+
+        <input type='text,' placeholder="Search">
+            <p>edp</p>
+        </input>
+    </div>)
 }
 
 
 
-
-export default App1;
+export default Search;
